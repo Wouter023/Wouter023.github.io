@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+/*index css*/
+@media (min-width: 1281px){
+	/*Header css*/
+	.flexparent{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+		background-color: #f54242;
+		position: static;
+	}
+	
+	.homeheader{
+		display: flex;
+		flex-wrap: wrap;
+		
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	.homeheaderimage{
+		flex-basis: 10%;
+		flex-grow: 0;
+		flex-shrink: 0;	
+		width: 1%;
+	}
+	
+	.hometitle{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		font-family: 'Notable', sans-serif;
+	}
+	
+	.homepayoff, .homenavigation{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	nav ul{
+		list-style-type: none;
+		background-color: #42a4f5;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav ul li{
+		display: inline;
+	}
+	
+	a:hover{
+		color: #fc51fc;
+	}
+	
+	a:active{
+		color: #faf5fa;
+	}
+	
+	#inovationslist{
+		display: none;
+	}
+	
+	#hamicon{
+		display: none;
+	}
+	
+	.homenavigation label{
+		display: none;
+	}
+	/*End header css*/
+	
+	/*Main css*/
+	#homepagevideo{
+		flex-basis: 50%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		width: 1%;
+	}
+	
+	.homepagesection{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		letter-spacing: 0.1em;
+		line-height: 20px;
+		text-indent: 5px;
+		word-spacing: 0.1rem;
+	}
+	
+	.sectionimage{
+		float: right;
+		width: 300px;
+		height: 200px;
+	}
+	
+	.homepagesection{
+		flex-basis: 70%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	#homearticle1{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		float: left;
+	}
+	
+	#homearticle2{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		float: left;
+	}
+	
+	#homearticle3{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		float: left;
+	}
+	
+	#destinationaside{
+		position: fixed;
+		top: 60%;
+		left: 80%;
+		background-color: #42a4f5;
+		text-transform: uppercase;
+	}
+	
+	.cookiestatement{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		color: #FFF;
+		background-color: #FA0;
+		opacity: 50%;
+		z-index: 9999;
+	}
+	
+	.websitefooter{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	/*end main css*/
+}
+
+@media (min-width: 481px) and (max-width: 1280px){
+	/*Header css*/
+	.flexparent{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+		background-color: #4bf542;
+	}
+	
+	.homeheader{
+		display: flex;
+		flex-wrap: wrap;
+		
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	.homeheaderimage{
+		flex-basis: 10%;
+		flex-grow: 0;
+		flex-shrink: 0;	
+		width: 1%;
+	}
+	
+	.hometitle{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	.homepayoff{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	.homenavigation{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	nav > ul{
+		list-style-type: none;
+		background-color: #42a4f5;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav > ul > li{
+		display: inline;
+	}
+	
+	#inovationslist{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	#hamicon{
+		display: none;
+	}
+	
+	.homenavigation label{
+		display: none;
+	}
+	/*End header css*/
+	
+	#homepagevideo{
+		flex-basis: 50%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		width: 1%;
+	}
+	
+	.homepagesection{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	.sectionimage{
+		float: right;
+		width: 300px;
+		height: 200px;
+	}
+	
+	.homepagesection{
+		flex-basis: 70%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	#homearticle1{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		float: left;
+	}
+	
+	#homearticle2{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		float: left;
+	}
+	
+	#homearticle3{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		float: left;
+	}
+	
+	#destinationaside{
+		display: none;
+	}
+	
+	.cookiestatement{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		color: #FFF;
+		background-color: #FA0;
+		opacity: 50%;
+		z-index: 9999;
+		
+	}
+	
+	.websitefooter{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+}
+
+@media (max-width: 480px){
+	/*Header css*/
+	.flexparent{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+		background-color: #42a4f5;
+	}
+	
+	.homeheader{
+		display: flex;
+		flex-wrap: wrap;
+		
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	.homeheaderimage{
+		display: none;
+	}
+	
+	.hometitle{
+		flex-basis: 80%;
+		flex-grow: 1;
+		flex-shrink: 0;
+	}
+	
+	.homepayoff{
+		flex-basis: 80%;
+		flex-grow: 1;
+		flex-shrink: 0;
+	}
+	
+	.homenavigation{
+		flex-basis: 20%;
+		flex-grow: 1;
+		flex-shrink: 0;
+		float: right;
+	}
+	
+	nav > ul{
+		list-style-type: none;
+		background-color: #42a4f5;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav > ul > li{
+		display: inline;
+	}
+	
+	#inovationslist{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	#hamicon{display: none;}
+    .nav-items{display: block;}
+    .nav-items a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid #dd42f5;
+    }
+  
+    .homenavigation label{
+        display: inline-block;
+    }
+  
+    .nav-items{display: none;}
+  
+    .homenavigation input:checked ~ .nav-items{display:block;}
+	/*End header css*/
+	
+	#homepagevideo{
+		display: none;
+	}
+	
+	.homepagesection{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	
+	.sectionimage{
+		float: right;
+		width: 300px;
+		height: 200px;
+	}
+	
+	.homepagesection{
+		flex-basis: 70%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	#homearticle1{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		float: left;
+		order: 3;
+	}
+	
+	#homearticle2{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		float: left;
+		order: 2;
+	}
+	
+	#homearticle3{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		float: left;
+		order: 1;
+	}
+	
+	#destinationaside{
+		display: none;
+	}
+	
+	.cookiestatement{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		color: #FFF;
+		background-color: #FA0;
+		opacity: 50%;
+		z-index: 9999;
+		
+	}
+	
+	.websitefooter{
+		flex-basis: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+}

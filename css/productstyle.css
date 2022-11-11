@@ -1,0 +1,387 @@
+@media (min-width: 1281px){
+	/*Header css*/
+	body{
+		background-color: #f54242;
+		font-family: "Arial","Helvatica","sans-serif";
+	}
+	
+	.header{
+		display: grid;
+			grid-template-areas:
+				"logo"
+				"websitetitle"
+				"websitepayoff"
+				"navigation"
+	}
+
+	.headerimage{
+		grid-area: logo;
+	}
+
+	.hometitle{
+		grid-area: websitetitle;
+	}
+	
+	.homepayoff{
+		grid-area: websitepayoff;
+	}
+	
+	.navigation{
+		grid-area: navigation;
+	}
+	
+	nav > ul{
+		list-style-type: none;
+		background-color: #dd42f5;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav > ul > li{
+		display: inline;
+	}
+	
+	#hamicon{
+		display: none;
+	}
+	
+	.navigation label{
+		display: none;
+	}
+	/*End header css*/
+	
+	#productpagesection{
+		display: grid;
+		grid-template-areas:
+			"productarticle2 productarticle1 productarticle3"
+			"productarticle5 productarticle1 productarticle3"
+			"productarticle5 productarticle1 productarticle4"
+			"productarticle5 productarticle6 productarticle6"
+			"product1 product2 product3"
+			"copyright copyright cookies" 
+	}
+	
+	#productarticle1{
+		background-color: #f54b42;
+		grid-area: productarticle1;
+	}
+	
+	#productarticle2{
+		background-color: #f5b942;
+		grid-area: productarticle2;
+	}
+	
+	p:first-letter{
+		font-size: 150%;
+	}
+	
+	#productarticle3{
+		background-color: #f2f542;
+		grid-area: productarticle3;
+	}
+	
+	#productarticle4{
+		background-color: #4bf542;
+		grid-area: productarticle4;
+	}
+	
+	#productarticle5{
+		background-color: #42f5e6;
+		grid-area: productarticle5;
+	}
+	
+	#productarticle6{
+		background-color: #9c42f5;
+		grid-area: productarticle6;
+	}
+	
+	#productphoto1{
+		grid-area: product1;
+	}
+	
+	#productphoto2{
+		grid-area: product2;
+	}
+	
+	#productphoto3{
+		grid-area: product3;
+	}
+	
+	.productimage{
+		width: 100%;
+		height: 90%;
+	}
+	
+	.cookiestatement{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		color: #FFF;
+		background-color: #FA0;
+		opacity: 50%;
+		grid-area: cookies;
+		z-index: 9999;
+	}
+	
+	.websitefooter{
+		grid-area: copyright;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 1280px){
+	/*Header css*/
+	body{
+		background-color: #4bf542;
+		font-family: "Arial","Helvatica","sans-serif";
+	}
+	
+	.header{
+		display: grid;
+			grid-template-areas:
+				"logo"
+				"websitetitle"
+				"websitepayoff"
+				"navigation"
+	}
+
+	.headerimage{
+		grid-area: logo;
+	}
+
+	.hometitle{
+		grid-area: websitetitle;
+	}
+	
+	.homepayoff{
+		grid-area: websitepayoff;
+	}
+	
+	.navigation{
+		grid-area: navigation;
+	}
+	
+	nav > ul{
+		list-style-type: none;
+		background-color: #f2f542;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav > ul > li{
+		display: inline;
+	}
+	
+	#hamicon{
+		display: none;
+	}
+	
+	.navigation label{
+		display: none;
+	}
+	/*End header css*/
+	
+	#productpagesection{
+		display: grid;
+		grid-template-areas:
+			"productarticle1 productarticle2"
+			"productarticle3 productarticle2"
+			"productarticle3 productarticle5"
+			"productarticle6 productarticle6"
+			"product1 product2"
+			"copyright cookies"
+	}
+	
+	#productarticle1{
+		background-color: #f54542;
+		grid-area: productarticle1;
+	}
+	
+	#productarticle2{
+		background-color: #f54542;
+		grid-area: productarticle2;
+	}
+	
+	#productarticle3{
+		background-color: #f2f542;
+		grid-area: productarticle3;
+	}
+	
+	#productarticle4{
+		display: none;
+	}
+	
+	#productarticle5{
+		background-color:#42f5dd;
+		grid-area: productarticle5;
+	}
+	
+	#productarticle6{
+		background-color: #b942f5;
+		grid-area: productarticle6;
+	}
+	
+	#productphoto1{
+		grid-area: product1;
+	}
+	
+	#productphoto2{
+		grid-area: product2;
+	}
+	
+	#productphoto3{
+		display: none;
+	}
+	
+	.productimage{
+		width: 100%;
+		height: 90%;
+	}
+	
+	.cookiestatement{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		color: #FFF;
+		background-color: #FA0;
+		opacity: 50%;
+		grid-area: cookies;
+		z-index: 9999;
+	}
+	
+	.websitefooter{
+		grid-area: copyright;
+	}
+}	
+@media (max-width: 480px){
+	/*Header css*/
+	body{
+		background-color: #42a4f5;
+		font-family: "Arial","Helvatica","sans-serif";
+	}
+	
+	.header{
+	display: grid;
+		grid-template-areas:
+			"websitetitle navigation"
+			"websitepayoff navigation"
+	}
+
+	.headerimage{
+		display: none;
+	}
+
+	.hometitle{
+		grid-area: websitetitle;
+	}
+	
+	.homepayoff{
+		grid-area: websitepayoff;
+	}
+	
+	.navigation{
+		grid-area: navigation;
+	}
+	
+	nav > ul{
+		list-style-type: none;
+		background-color: #ecf542;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav > ul > li{
+		display: inline;
+	}
+	
+	#hamicon{display: none;}
+    .nav-items{display: block;}
+    .nav-items a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid #f242f5;
+    }
+  
+    .navigation label{
+        display: inline-block;
+    }
+  
+    .nav-items{display: none;}
+  
+    .navigation input:checked ~ .nav-items{display:block;}
+	/*End header css*/
+	
+	#productpagesection{
+		display: grid;
+		grid-template-areas:
+			"productarticle5 productarticle5"
+			"productarticle3 productarticle3"
+			"productarticle2 productarticle2"
+			"productarticle1 productarticle1"
+			"product1 product1"
+			"product2 product2"
+			"product3 product3"
+			"copyright cookies"
+			
+	}
+	
+	#productarticle1{
+		background-color: #f54242;
+		grid-area: productarticle1;
+	}
+	
+	#productarticle2{
+		background-color: #f5c242;
+		grid-area: productarticle2;
+	}
+	
+	#productarticle3{
+		background-color: #f2f542;
+		grid-area: productarticle3;
+	}
+	
+	#productarticle4{
+		display: none;
+	}
+	
+	#productarticle5{
+		background-color: #FFC72B;
+		grid-area: productarticle5;
+	}
+	
+	#productarticle6{
+		display: none;
+	}
+	
+	#productphoto1{
+		grid-area: product1;
+	}
+	
+	#productphoto2{
+		grid-area: product2;
+	}
+	
+	#productphoto3{
+		grid-area: product3;
+	}
+	
+	.productimage{
+		width: 100%;
+		height: 90%;
+	}
+	
+	.cookiestatement{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		color: #FFF;
+		background-color: #FA0;
+		opacity: 50%;
+		grid-area: cookies;
+		z-index: 9999;
+	}
+	
+	.websitefooter{
+		grid-area: copyright;
+	}
+}

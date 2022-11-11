@@ -1,0 +1,337 @@
+@media (min-width: 1281px){
+	/*Header css*/
+	body{
+		background-color: #f54242;
+	}
+	.header{
+		display: grid;
+			grid-template-areas:
+				"logo"
+				"websitetitle"
+				"websitepayoff"
+				"navigation"
+	}
+
+	.headerimage{
+		grid-area: logo;
+	}
+
+	.hometitle{
+		grid-area: websitetitle;
+	}
+	
+	.homepayoff{
+		grid-area: websitepayoff;
+	}
+	
+	.navigation{
+		grid-area: navigation;
+	}
+	
+	nav > ul{
+		list-style-type: none;
+		background-color: #eff542;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav > ul > li{
+		display: inline;
+	}
+	
+	#hamicon{
+		display: none;
+	}
+	
+	.navigation label{
+		display: none;
+	}
+	
+	.contactpagecontent{
+		display: grid;
+		grid-template-areas:
+			"contact contact contact"
+			"form form aside"
+	}
+	
+	.contactinformation{
+		grid-area: contact;
+		
+	}
+	
+	.contactform{
+		grid-area: form;
+	}
+	
+	article > ul{
+		list-style-type: none;
+	}
+	
+	.contactaside{
+		grid-area: aside;
+		
+		display: grid;
+		grid-template-areas:
+			"contactphoto1"
+			"contactphoto2"
+			"contactphoto3"
+	}
+	
+	#contactproduct1{
+		grid-area: contactphoto1;
+	}
+	
+	#contactproduct2{
+		grid-area: contactphoto2;
+	}
+	
+	#contactproduct3{
+		grid-area: contactphoto3;
+	}
+	
+	.contactimage{
+		width: 100%;
+	}
+	
+	.cookiestatement{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		color: #FFF;
+		background-color: #FA0;
+		opacity: 50%;
+		grid-area: cookies;
+		z-index: 9999;
+	}
+	
+	.websitefooter{
+		grid-area: copyright;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 1280px){
+	/*Header css*/
+	body{
+		background-color: #4bf542;
+	}
+	
+	.header{
+		display: grid;
+			grid-template-areas:
+				"logo"
+				"websitetitle"
+				"websitepayoff"
+				"navigation"
+	}
+
+	.headerimage{
+		grid-area: logo;
+	}
+
+	.hometitle{
+		grid-area: websitetitle;
+	}
+	
+	.homepayoff{
+		grid-area: websitepayoff;
+	}
+	
+	.navigation{
+		grid-area: navigation;
+	}
+	
+	nav > ul{
+		list-style-type: none;
+		background-color: #eff542;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav > ul > li{
+		display: inline;
+	}
+	
+	#hamicon{
+		display: none;
+	}
+	
+	.navigation label{
+		display: none;
+	}
+	
+	.contactpagecontent{
+		display: grid;
+		grid-template-areas:
+			"contact contact"
+			"form aside"
+			"copyright cookies"
+	}
+	
+	.contactinformation{
+		grid-area: contact;
+	}
+	
+	article > ul{
+		list-style-type: none;
+	}
+	
+	.contactform{
+		grid-area: form;
+	}
+	
+	.contactaside{
+		display: grid;
+		grid-template-areas:
+			"contactphoto1"
+			"contactphoto2"
+			"contactphoto3"
+	}
+	
+	#contactproduct1{
+		grid-area: contactphoto1;
+	}
+	
+	#contactproduct2{
+		grid-area: contactphoto2;
+	}
+	
+	#contactproduct3{
+		grid-area: contactphoto3;
+	}
+	
+	.contactimage{
+		width: 100%;
+	}
+	
+	.cookiestatement{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		color: #FFF;
+		background-color: #FA0;
+		opacity: 50%;
+		grid-area: cookies;
+		z-index: 9999;
+	}
+	
+	.websitefooter{
+		grid-area: copyright;
+	}
+}	
+@media (max-width: 480px){
+	/*Header css*/
+	body{
+		background-color: #42a4f5;
+	}
+	
+	.header{
+	display: grid;
+		grid-template-areas:
+			"websitetitle navigation"
+			"websitepayoff navigation"
+	}
+
+	.headerimage{
+		display: none;
+	}
+
+	.hometitle{
+		grid-area: websitetitle;
+	}
+	
+	.homepayoff{
+		grid-area: websitepayoff;
+	}
+	
+	.navigation{
+		grid-area: navigation;
+	}
+	
+	nav > ul{
+		list-style-type: none;
+		background-color: #eff542;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav > ul > li{
+		display: inline;
+	}
+	
+	#hamicon{display: none;}
+    .nav-items{display: block;}
+    .nav-items a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid #f542f2;
+    }
+  
+    .navigation label{
+        display: inline-block;
+    }
+  
+    .nav-items{display: none;}
+  
+    .navigation input:checked ~ .nav-items{display:block;}
+	
+	.contactpagecontent{
+		display: grid;
+		grid-template-areas:
+			"contact contact"
+			"form form"
+			"aside aside"
+			"copyright cookies"
+	}
+	
+	.contactinformation{
+		grid-area: contact;
+	}
+	
+	.contactforn{
+		grid-area: form;
+	}
+	
+	article > ul{
+		list-style-type: none;
+	}
+	
+	.contactaside{
+		display: grid;
+		grid-template-areas:
+			"contactphoto1"
+			"contactphoto2"
+			"contactphoto3"
+	}
+	
+	#contactproduct1{
+		grid-area: contactphoto1;
+	}
+	
+	#contactproduct2{
+		grid-area: contactphoto2;
+	}
+	
+	#contactproduct3{
+		grid-area: contactphoto3;
+	}
+	
+	.contactimage{
+		width: 100%;
+	}
+	
+	.cookiestatement{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		color: #FFF;
+		background-color: #FA0;
+		opacity: 50%;
+		grid-area: cookies;
+		z-index: 9999;
+	}
+	
+	.websitefooter{
+		grid-area: copyright;
+	}
+}
